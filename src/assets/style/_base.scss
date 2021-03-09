@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    box-sizing: inherit;
+    font-family: inherit;
+    font-size: 1.2rem;
+    list-style-type: none;
+    margin: 0;
+    outline: transparent solid 0px;
+    padding: 0;
+    text-decoration-line: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Oxygen';
+}

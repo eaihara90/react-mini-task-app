@@ -1,0 +1,51 @@
+@import '../../assets/style/main.scss';
+
+.status {
+    padding: .4rem .8rem;
+    width: 25%;
+
+    &--New {
+        background-color: $new-1;
+        height: 106px;
+        padding: .4rem .8rem;
+    }
+    
+    &--Hold {
+        background-color: $hold-1;
+        height: 106px;
+        padding: .4rem .8rem;
+    }
+    
+    &--Progress {
+        background-color: $inprogress-1;
+        height: 106px;
+        padding: .4rem .8rem;
+    }
+    
+    &--Done {
+        background-color: $done-1;
+        height: 106px;
+        padding: .4rem .8rem;
+    }
+
+    & .status__title {
+        color: $light-gray-1;
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+    
+    & .input-task {
+        border: none;
+        border-radius: 2px;
+        display: block;
+        font-size: 1.6rem;
+        margin: 2rem auto;
+        padding: .6rem 1rem;
+        width: 90%;
+    }
+
+    & .task-container {
+        height: calc(100% - 106px);
+        overflow: auto;
+    }
+}

@@ -1,0 +1,61 @@
+@import '../../assets/style/main.scss';
+
+.task {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 1rem;
+
+    &--new {
+        border: 1px solid $new;
+        border-radius: 2px;
+    }
+
+    &--hold {
+        border: 1px solid $hold;
+        border-radius: 2px;
+    }
+
+    &--progress {
+        border: 1px solid $inprogress;
+        border-radius: 2px;
+    }
+
+    &--done {
+        border: 1px solid $done;
+        border-radius: 2px;
+    }
+
+    &__text {
+        color: $light-gray-1;
+        font-size: 1.4rem;
+    }
+
+    &__ellipse {
+
+        & .icon {
+            cursor: pointer;
+            display: block;
+            fill: white;
+            height: 1.6rem;
+            width: 1.6rem;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        
+        & .icon {
+            cursor: pointer;
+            display: block;
+            fill: white;
+            height: 1.6rem;
+            width: 1.6rem;
+
+            &:not(:first-child) {
+                margin-left: 1.2rem;
+            }
+        }
+    }
+}

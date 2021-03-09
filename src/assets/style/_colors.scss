@@ -1,0 +1,17 @@
+$background: #1b1b1b;
+$light-gray-1: #F1F1F1;
+$light-gray-2: darken($light-gray-1, 80%);
+$purple: #87289E;
+$green: #047050;
+$orange: #E84902;
+$blue: #3647a7;
+
+$new: #54A0FF;
+$hold: #ff4500;
+$inprogress: #e2df2d;
+$done: #30CB83;
+
+$new-1: darken($new, 20%);
+$hold-1: lighten($hold, 5%);
+$inprogress-1: darken($inprogress, 10%);
+$done-1: darken($done, 20%);
