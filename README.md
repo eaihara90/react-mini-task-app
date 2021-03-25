@@ -1,3 +1,17 @@
+## Usage Steps
+
+After cloning the repository, using a CLI navigate to it's main folder and run the following commands:
+
+### `npm install`
+
+To install of it's dependencies packages
+
+### `npm start`
+
+To run the application locally and wait until the browser open itself at the address [http://localhost:3000](http://localhost:3000) 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
