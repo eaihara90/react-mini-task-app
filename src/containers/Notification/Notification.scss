@@ -1,0 +1,16 @@
+@import '../../assets/style/main.scss';
+
+.Notification {
+    background-color: lighten($background, 10%);
+    bottom: 2rem;
+    left: 50%;
+    padding: 1rem 2rem;
+    position: fixed;
+    text-align: center;
+    transform: translateX(-50%);
+    z-index: 1;
+
+    &__Message {
+        color: $light-gray-1;
+    }
+}
